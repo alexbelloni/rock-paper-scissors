@@ -1,0 +1,41 @@
+.score-area{
+    position: absolute;
+    width: 100%;
+    text-align: -webkit-center;
+    top: 25px;
+}
+
+.border {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    width: 250px;
+    border: 2px solid var( --background-light);
+    border-radius: 5px;
+}
+
+.score-area .logo img{
+    width: 80px;
+}
+
+.score-area .score{
+    border: 2px solid var( --background-light);
+    width: 70px;
+    height: 70px;
+    background: var(--white);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.score-area .score .title{
+    font-size: 0.7em;
+    font-weight: 700;
+    margin: 5px 0 0 0;
+}
+
+.score-area .score .points{
+    font-size: 2em;
+    font-weight: 700;
+}

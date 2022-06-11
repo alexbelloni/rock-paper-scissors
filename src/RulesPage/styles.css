@@ -1,0 +1,21 @@
+.rules-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    background: var(--white);
+    color: var(--gray);
+}
+
+.rules-page .title{
+    font-size: 2em;
+    font-weight: 700;
+    position:absolute;
+    top: 60px;
+}
+
+.rules-page .close img{
+    cursor: pointer;
+}
+
+

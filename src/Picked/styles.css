@@ -1,0 +1,45 @@
+.picked-container {
+    padding-top: 110px;
+    text-align: -webkit-center;
+    height: 470px;
+    width: 300px;
+}
+
+.picked-container .picked {
+    margin-top: 50px;
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    height: 200px;
+    width: 300px;
+}
+
+.picked-container .picked .p-option {
+    display: flex;
+    flex-direction: column;
+}
+
+.picked-container .picked .p-option span {
+    margin-top: 15px;
+    color: white;
+    font-size: 0.8em;
+    font-weight: 700;
+}
+
+.btn-playagain {
+    background: var(--white);
+    padding: 10px 50px;
+    border: 2px solid var(--white);
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+    color: var(--gray);
+}
+
+.picked-container .message {
+    margin: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: 2.5em;
+    margin: 10px 0;
+}

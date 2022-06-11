@@ -1,0 +1,73 @@
+.board-container {
+    padding-top: 110px;
+}
+
+.triangle {
+    background-image: url('../assets/bg-triangle.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 470px;
+    width: 300px;
+    position: relative;
+}
+
+.triangle .option {
+    position: absolute;
+}
+
+.triangle .option.paper {
+    top: 60px;
+    left: -10px;
+    /* border-color: var(--paper); */
+}
+
+.triangle .option.scissor {
+    top: 60px;
+    right: -10px;
+    /* border-color: var(--scissor); */
+}
+
+.triangle .option.rock {
+    bottom: 60px;
+    left: 90px;
+    /* border-color: var(--rock); */
+}
+
+.triangle .direction {
+    background: white;
+    position: absolute;
+}
+
+.triangle .arrow::before {
+    content: "<----";
+}
+
+.triangle .direction.scissor {
+    top: 50px;
+    right: 126px;
+}
+
+.triangle .direction.paper {
+    top: 240px;
+    left: 23px;
+}
+
+.triangle .direction.paper .divarrow {
+    transform: rotate(-120deg);
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.triangle .direction.rock {
+    top: 250px;
+    right: 23px;
+}
+
+.triangle .direction.rock .divarrow {
+    transform: rotate(120deg);
+}
+
+.triangle .direction.hidden {
+    display: none;
+}
