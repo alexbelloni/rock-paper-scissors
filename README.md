@@ -1,8 +1,8 @@
-# Frontend Mentor - Rock, Paper, Scissors solution
+# Rock, Paper, Scissors solution
 
 ## Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [here](https://my-rock-paper-scissor.surge.sh/)
 
 ## Built with
 
