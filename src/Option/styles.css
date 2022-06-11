@@ -31,7 +31,7 @@
 
 .option.unknown {
     padding: 30px;
-    background: green;
-    border: 10px solid green;
+    background: var(--background);
+    border: 10px solid var(--background);
     border-radius: 50%;
 }

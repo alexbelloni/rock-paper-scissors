@@ -56,8 +56,8 @@ export const Picked = ({ optionName, onPlayAgainClick, addPoints }) => {
                 <div>
                     {houseOption && message && <>
                         <span className='message'>{message}</span>
-                        <div className='btn-playagain'>
-                            <span onClick={() => onPlayAgainClick()}>PLAY AGAIN</span>
+                        <div className='btn-playagain' onClick={() => onPlayAgainClick()}>
+                            <span>PLAY AGAIN</span>
                         </div>
                     </>}
                 </div>

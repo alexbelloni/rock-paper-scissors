@@ -11,7 +11,7 @@
     padding: 20px;
     align-items: center;
     width: 250px;
-    border: 2px solid var( --background-light);
+    border: 2px solid var( --background);
     border-radius: 5px;
 }
 
@@ -20,7 +20,7 @@
 }
 
 .score-area .score{
-    border: 2px solid var( --background-light);
+    border: 2px solid var( --background);
     width: 70px;
     height: 70px;
     background: var(--white);

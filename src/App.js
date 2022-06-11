@@ -17,7 +17,7 @@ function App() {
           <span onClick={() => setIsOpenRules(true)}>RULES</span>
         </div>
       </> : <RulesPage onClose={() => setIsOpenRules(false)} />}
-      <div class="attribution">
+      <div className="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="https://alexandrebelloni.com">Alexandre Alves</a>.
     </div>

@@ -1,6 +1,5 @@
 :root {
-  --background: #111;
-  --background-light: rgb(183, 227, 240);
+  --background: hsl(214, 28%, 43%);
   --paper: blue;
   --rock: red;
   --scissor: yellow;
