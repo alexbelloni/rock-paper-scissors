@@ -2,7 +2,9 @@
 
 ## Links
 
-- Live Site URL: [here](https://my-rock-paper-scissor.surge.sh/)
+- Live Site URL: [here](https://my-rock-paper-scissors.surge.sh/)  
+- GitHub: [here](https://github.com/alexbelloni/rock-paper-scissors)
+
 
 ## Built with
 
