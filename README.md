@@ -1,4 +1,8 @@
-# Rock, Paper, Scissors solution
+# Rock, Paper, Scissors game
+
+Based on "Rock, Paper, Scissors game" challenge from frontendmentor.io  
+This challenge will test your HTML, CSS and JavaScript skills.  
+
 
 ## Links
 
