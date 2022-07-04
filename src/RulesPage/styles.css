@@ -16,6 +16,13 @@
 
 .rules-page .close img{
     cursor: pointer;
+    padding: 5px;
+    border: 1px solid var(--gray);
+    border-radius: 50%;
+
 }
 
+.rules-page .close img:hover{
+    opacity: 0.6;    
+}
 
